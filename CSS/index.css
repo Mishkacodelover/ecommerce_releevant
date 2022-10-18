@@ -1,0 +1,104 @@
+/*estilos header*/
+
+.cabecera{
+    display: flex;
+    width: 100%;
+    height: 72px;
+    margin-bottom: 8px;
+    margin-top: 4px;
+   
+}
+
+.logo{
+    display: flex;
+    flex: auto;
+    padding-left: 40px;
+}
+.menu{
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    font-size: var(--letra_boton);
+    background-color: var(--primario);
+    background-image: linear-gradient(var(--primario), var(--negro));
+
+}
+.menu li{
+    display: inline-block;
+    padding-inline: 20px;
+    text-transform: uppercase;
+   
+}
+.menu li a{
+    color: var(--blanco);  
+}
+.menu li:hover{
+    transform: scale(1.2,1.2);
+    transition: all 0.5s;
+}
+
+.menu li a:hover{
+    color: var(--blanco);
+     
+}
+.cabecera input{
+    padding: 16px 56px;
+    border-radius: 32px;
+    border: solid 1px var(--gris_claro);
+}
+.drch_cabecera{
+    padding-right: 32px;
+    padding-top: 8px;
+}
+.logo h4{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+/*fin estilos header*/
+.destacada{
+    display: flex;
+    height: 260px;
+    background-image: url(../IMAGENES/perfumes/posion.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.destacada p{
+    color: var(--blanco);
+}
+
+
+/*boton del main seccion destacada-*/
+.destacado{
+    display: block;
+    padding: 16px 24px;
+    border: none;
+   
+    background-color: var(--primario);
+    background-image: linear-gradient(var(--negro),var(--primario));
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+   
+}
+.destacado a{
+    color:var(--blanco);
+    padding-inline: 180px;
+   
+}
+.destacado:hover {
+    background-color: var(--primario_oscuro);
+}
+
+.productos-favoritos{
+    background-color: var(--blanco);
+    text-align: center;
+    height: 96px;
+    
+}
+.productos-favoritos h1{
+    padding-top: 32px;
+    color: var(--gris_oscuro);
+}

@@ -1,0 +1,131 @@
+/*estilos header*/
+
+.cabecera{
+    display: flex;
+    width: 100%;
+    height: 72px;
+    margin-bottom: 8px;
+    margin-top: 4px;
+   
+}
+
+.logo{
+    display: flex;
+    flex: auto;
+    padding-left: 40px;
+}
+.menu{
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    font-size: var(--letra_boton);
+    background-color: var(--primario);
+    background-image: linear-gradient(var(--primario), var(--negro));
+
+}
+.menu li{
+    display: inline-block;
+    padding-inline: 20px;
+    text-transform: uppercase;
+   
+}
+.menu li a{
+    color: var(--blanco);  
+}
+.menu li:hover{
+    transform: scale(1.2,1.2);
+    transition: all 0.5s;
+}
+
+.menu li a:hover{
+    color: var(--blanco);
+     
+}
+.cabecera input{
+    padding: 16px 56px;
+    border-radius: 32px;
+    border: solid 1px var(--gris_claro);
+}
+.drch_cabecera{
+    padding-right: 32px;
+    padding-top: 8px;
+}
+.logo h4{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+/*fin cabecera*/
+main{
+    background-color: var(--blanco);
+}
+/*formularios*/
+.error{
+    display: none;
+}
+
+.input-grp .error{
+    padding: 10px;
+    border: 2px solid var(--color_error);
+    color: var(--color_error);
+    border-radius: 16px;
+    margin-top: 16px;
+}
+.formularios{
+    display: flex;
+}
+.caja{
+    display: flex;
+    padding: 80px;
+    align-items: flex-start;
+}
+.input-grp input{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    background-color: var(--blanco);
+    color: var(--negro);
+    border-radius: 16px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+
+}
+.input-grp label{
+    display: none;
+}
+.buttonform{
+    width: 100%;
+    padding: 20px;
+    border-radius: 32px;
+    background-color: var(--primario);
+    background-image: linear-gradient(var(--primario_claro),var(--primario_oscuro));
+    font-size: var(--letra_boton);
+    font-weight: bold;
+    color: var(--blanco);
+    border: 1px solid var(--primario);
+}
+.buttonform:hover{
+    color: var(--negro);
+    
+}
+form {
+    text-align: center;
+   
+    border-radius: 16px;
+    padding: 24px;
+    background-image: radial-gradient(var(--blanco),var(--gris_claro));
+    
+}
+form h3{
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+form p{
+    margin-bottom: 16px;
+}
+.checkbox {
+    text-align: left;
+    margin-top: 16px;
+}
+.checkbox a:hover{
+    color: var(--primario_claro);
+}

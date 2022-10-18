@@ -1,0 +1,71 @@
+.colores{
+    display: flex;
+    
+}
+
+
+
+
+.primario{
+    background-color: hsl(359, 97%, 40%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    
+}
+.negro{
+    background-color: hsl(359, 97%, 5%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    
+}
+.blanco{
+    background-color: hsl(359, 97%, 95%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    
+}
+.gris_claro{
+    background-color: hsl(359, 15%, 70%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    
+}
+.gris_oscuro{
+    background-color: hsl(359, 05%, 20%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    
+}
+.primario_claro{
+    background-color: hsl(359, 80%, 60%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    
+}
+.primario_oscuro{
+    background-color: hsl(359, 97%, 25%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    
+}
+.color_exito{
+    background-color: hsl(145, 97%, 40%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    
+}
+.color_error{
+    background-color: hsl(355, 97%, 40%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    
+}

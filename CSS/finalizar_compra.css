@@ -1,0 +1,12 @@
+.pedido{
+   border: 3px solid blue;
+   height: 350px;
+   padding: 20px;
+   
+}
+.finalcard{
+    width: 200px;
+    border: 1px solid black;
+    float: left;
+    height: 250px;
+}
