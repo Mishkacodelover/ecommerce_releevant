@@ -7,103 +7,192 @@
     <title>Forma de pago</title>
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/forma_de_pago.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 <body>
+  <div class="wrap">
     <header>
-        <img src="../IMAGENES/perfume.jpg" alt="logo perfume" width="50px" />
-        <p class="logo">Perfumes Amanatti</p>
-  
-       
-        <button class="carrito"   type="button"><img
-          src="../IMAGENES/iconos/carrito compra.png"
-          alt="carrito compra"
-          width="50px"
-        />Carrito <spam class="contador">5</spam></button>
-        <img src="../IMAGENES/iconos/flecha.png" alt="flecha" width="30px">
-        <button type="button"><img src="../IMAGENES/iconos/tarjeta.jpg" alt="forma de pago" width="30px">
-             Forma de pago</button>
-             <img src="../IMAGENES/iconos/flecha.png" alt="flecha" width="30px">
-             <button type="button"> <img src="../IMAGENES/iconos/finalizar pedido.png" alt="finalizar pedido" width="30px">  Finalizar pedido</button>
-      </header>
-      <div class="wrap">
-    <h1>Forma de pago</h1>
-    <button type="button">Seguir comprando</button>
-    <main>
+      <div class="cabecera dos">
+        <div class="logo">
+          <img src="../IMAGENES/LOGO 1.jpeg" alt="logo perfume" />
+          <a href="index.html"><h4>Perfumes Amanatti</h4></a>
         
+        <div class="forma_pago">
+          <div>
+        <button class="button carrito" type="button">
+          Carrito<spam class="circulo"></spam>
+          <spam class="contador">5</spam></button>
+        </div>
+        <div>
+          <i class="bi bi-arrow-right-circle"></i>
+      </div>
+      <div>
+        <a href="#" class="button pago"><i class="bi bi-credit-card-2-back"></i> Forma de pago</a>
+       
+      </div>
             <div>
+              <i class="bi bi-arrow-right-circle"></i>
+            </div>
+            <div>
+              <a href="#" class="button pago"><i class="bi bi-wallet2"></i>  Finalizar pedido</a>
+         
+            </div>
+            </div>
+          </div>
+      </header>
+      <main>
+     <section class="comprar">
+      <div>
+     <h1>Forma de pago</h1>
+    </div>
+     <div class="seguir_comprando">
+      <a href="#" class="button pago">Seguir comprando</a>
+    
+    </div>
+    </section>
+    
+    <section class="cajas">
+            <div class="caja1">
         
                 <h3>Mis tarjetas</h3>
                 <form>
-               
-                    <label for 6545>
-                <input type="radio" name="mastercard" id="6545">   <img src="../IMAGENES/iconos/tarjeta.jpg" alt="tarjeta" width="30px">Mastercard....6545</label>
-                <br></br>
+                  
+                <div class="input-grp radio">
+                <label for 6545>
+                <input type="radio" name="mastercard" id="6545"><i class="bi bi-credit-card-2-back"></i>   Mastercard....6545</label>
+                </div>
+                <div class="input-grp radio">
                 <label for="7841">
-                <input type="radio" name="mastercard" id="7841"><img src="../IMAGENES/iconos/tarjeta.jpg" alt="tarjeta" width="30px">Mastercard....7841</label>
-                <br></br>
+                <input type="radio" name="mastercard" id="7841"><i class="bi bi-credit-card-2-back"></i>Mastercard....7841</label>
+                </div>
+                <div class="input-grp radio">
                 <label for="6699">
-                <input type="radio" name="mastercard" id="6699"><img src="../IMAGENES/iconos/tarjeta.jpg" alt="tarjeta" width="30px">Mastercard....6699</label>
-                <br><br>
-                <a href="finalizar_compra.html"> <button type="button">Pagar con esta tarjeta</button></a>  
-            </form>
+                <input type="radio" name="mastercard" id="6699"><i class="bi bi-credit-card-2-back"></i>Mastercard....6699</label>
+               </div>
+                <button type="button" class="button">Pagar con esta tarjeta</button> 
+               </form>
             
             </div>
-            <div>
+            <div class="caja">
+              <h3>Añadir nueva tarjeta</h3>
                 <form>
-                    <h3>Añadir nueva tarjeta</h3>
-                    <input type="number" name="numerotarjeta" placeholder=" &#128179; Número de tarjeta">
-                    <br/><br/>
-                    <input type="text" name="titular de tarjeta" placeholder=" &#128100; Titular de la tarjeta">
-                    <br/><br/>
-                    <input type="number" name="caducidad" placeholder="&#128467; Caducidad">
-                    <input type="number" name="csv" placeholder="&#128272;  Código seguro">
-                    <br/><br/>
-                    <button type="button">Añadir a mis tarjetas</button>
+                    
+                    <div class="input-grp">
+                    <label for="tarjeta">Tarjeta</label>
+                    <input type="number" name="numerotarjeta" placeholder=" &#128179; Número de tarjeta" id="tarjeta"  >
+                    </div>
+                    <div class="input-grp">
+                    <label for="titular">Titular</label>
+                    <input type="text" name="titular de tarjeta" placeholder=" &#128100; Titular de la tarjeta"  id="titular">
+                   </div>
+                   <div class="input-grp">
+                    <label for="caducidad">Caducidad</label>
+                    <input type="number" name="caducidad" placeholder="&#128467; Caducidad" id="caducidad">
+                  </div>
+                    <div class="input-grp">
+                    <label for="csv">csv</label>
+                    <input type="number" name="csv" placeholder="&#128272;  Código seguro" id="csv">
+                  </div>
+                    <button type="button" class="button">Añadir a mis tarjetas</button>
                     
 
                 </form>
             </div>
+      </section>  
         
     </main>
-  </div>
+  
     
+  <footer>
+    <div class="footer">
+      <div class="izq">
+        <div class="milogo">
+          <img src="../IMAGENES/LOGO 1.jpeg" alt="logo prefume" />
+          <h4>Perfumes Amanatti</h4>
+        </div>
+        <div class="frases">
+          <ul>
+            <li><a href="centro_de_ayuda.html">Centro de ayuda</a></li>
+            <li>
+              <a href="servicios_al_consumidor.html"
+                >Servicio al consumidor</a
+              >
+            </li>
 
-<footer>
-    <div class="milogo">
-      <img src="../IMAGENES/perfume.jpg" alt="logo prefume" width="40px" />
-      <p class="logo">Perfumes Amanatti</p>
+            <li><a href="escribenos.html">Escríbenos</a></li>
+
+            <li>
+              <a href="servicio_telefonico.html">Servicio telefónico</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="politica_de_privacidad.html"
+                >Políticas de privacidad</a
+              >
+            </li>
+            <li><a href="#">Condiciones de compra</a></li>
+            <li><a href="#">Opiniones de clientes</a></li>
+            <li><a href="#">Avisos de privacidad y cookies</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="drch">
+        <form>
+          <h5>Únete a nuestra newsletter y recibe ofertas diarias</h5>
+          <div class="input-grp">
+            <label for="Email">Email</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              id="Email"
+            />
+            <div class="error">El email es incorrecto</div>
+          </div>
+          <button class="buttonform">Suscribirme</button>
+          <div class="checkbox">
+            <label for="checkbox">
+              <input type="checkbox" name="checkbox" id="checkbox" /> Acepto
+              la
+              <a href="politica_de_privacidad.html"
+                ><b>política de privacidad</b></a
+              >
+              de esta web</label
+            >
+          </div>
+        </form>
+        <div class="redessociales">
+          <p>Síguenos en redes sociales</p>
+          <a href="https://www.linkedin.com" target="_blank"
+            ><img
+              src="../IMAGENES/iconos/media-icon blanco/linkedin.png"
+              alt="linkedin"
+              width="40px"
+          /></a>
+          <a href="https://www.facebook.com" target="_blank"
+            ><img
+              src="../IMAGENES/iconos/media-icon blanco/facebook.png"
+              alt="facebook"
+              width="40px"
+          /></a>
+          <a href="https://www.youtube.com" target="_blank"
+            ><img
+              src="../IMAGENES/iconos/media-icon blanco/youtube.png"
+              alt="youtube"
+              width="40px"
+          /></a>
+          
+          <a href="https://instagram.com" target="_blank"
+            ><img
+              src="../IMAGENES/iconos/media-icon blanco/insta.png"
+              alt="instagram"
+              width="40px"
+          /></a>
+        </div>
+      </div>
     </div>
-    <div class="frases">
-      <p><a href="centro_de_ayuda.html">Centro de ayuda</a></p>
-      <p><a href="servicios_al_consumidor.html">Servicio al consumidor</a></p>
-
-      <p><a href="escribenos.html">Escríbenos</a></p>
-
-      <p><a href="servicio_telefonico.html">Servicio telefónico</a></p>
-    </div>
-    <div class="frases1">
-      <p><a href="politica_de_privacidad.html">Políticas de privacidad</a></p>
-      <p><a href="#">Condiciones de compra</a></p>
-      <p><a href="#">Opiniones de clientes</a></p>
-      <p><a href="#">Avisos de privacidad y cookies</a></p>
-    </div>
-    <form>
-      <p>Únete a nuestra newsletter y recibe ofertas diarias</p>
-      <input type="email" name="email" placeholder="email" />
-      <input type="button" name="suscribirme" value="Suscribirme" />
-      <br /><br />
-      <label for="checkbox">
-        <input type="checkbox" name="checkbox" id="checkbox" />Acepto la <a href="politica_de_privacidad.html">política de privacidad</a>
-      de esta web</label>
-      <br/><br/>
-      <p>Síguenos en redes</p>
-      <a href="https://www.linkedin.com" target="_blank"><img src="../IMAGENES/iconos/media-icon blanco/linkedin.png" alt="linkedin" width="40px"></a>
-      <a href="https://www.facebook.com" target="_blank"><img src="../IMAGENES/iconos/media-icon/facebook.png" alt="facebook" width="40px"></a>
-      <a href="https://www.youtube.com" target="_blank"><img src="../IMAGENES/iconos/media-icon/youtube.png" alt="youtube" width="40px"></a>
-      <a href="https://www.twitch.tv" target="_blank"><img src="../IMAGENES/iconos/media-icon/twitch.png" alt="twich" width="40px"></a>
-      <a href="https://instagram.com" target="_blank"><img src="../IMAGENES/iconos/media-icon/insta.png" alt="instagram" width="40px"></a>
-
-    </form>
   </footer>
+</div>
 </body>
 </html>

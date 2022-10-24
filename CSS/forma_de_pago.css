@@ -1,0 +1,104 @@
+.cabecera.dos{
+    display: flex;
+    width: 100%;
+    height: 72px;
+   padding-bottom: 8px;
+    margin-top: 4px;
+   
+}
+
+.logo{
+    display: flex;
+    flex: auto;
+    padding-left: 40px;
+}
+.logo h4{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.forma_pago{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    gap: 16px;
+   padding-left: 256px;
+   padding-bottom: 8px;
+   margin-top: 8px;
+   
+}
+.forma_pago div{
+    display: flex;
+
+}
+i.bi.bi-arrow-right-circle {
+    margin: auto;
+}
+.bi.bi-wallet2{
+    padding-right: 8px;
+
+}
+.bi.bi-credit-card-2-back{
+    padding-right: 8px;
+}
+.comprar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px;
+    background-image: linear-gradient(var(--primario), var(--negro));
+}
+.comprar h1{
+    padding-left: 24px;
+    padding-top: 8px;
+    color: var(--blanco);
+}
+.button.pago{
+    background-color: var(--negro);
+  
+}
+a.button.comprar {
+    padding: 16px;
+}
+.seguir_comprando{
+    padding-right: 32px;
+}
+
+/*fin header 2+*/
+
+main{
+    background-color: var(--blanco);
+}
+h3{
+    padding-left: 48px;
+}
+/*formularios de pago*/
+
+.cajas{
+    display: flex;
+    flex-direction: row;
+    padding-left: 24px;
+    height: 560px;
+}
+.caja, .caja1{
+    width: 100%;
+    box-sizing: border-box;
+}
+.caja1 label{
+    display: contents;
+}
+.input-grp.radio input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background-color: var(--blanco);
+    color: var(--negro);
+    border-radius: 16px;
+    border: 1px solid var(--gris_claro);
+    box-sizing: border-box;
+    margin-bottom: 16px;
+
+}
+.caja form, .caja1 form{
+    background-color: var(--gris_claro);
+    color: var(--negro);
+}

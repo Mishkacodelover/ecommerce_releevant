@@ -59,17 +59,9 @@ main{
     background-color: var(--blanco);
 }
 /*formularios*/
-.error{
-    display: none;
-}
 
-.input-grp .error{
-    padding: 10px;
-    border: 2px solid var(--color_error);
-    color: var(--color_error);
-    border-radius: 16px;
-    margin-top: 16px;
-}
+
+
 .formularios{
     display: flex;
 }
@@ -78,10 +70,10 @@ main{
     padding: 80px;
     align-items: flex-start;
 }
-.input-grp input{
+.input-grp#formulario input{
     display: block;
     width: 100%;
-    padding: 20px;
+    padding: 16px;
     background-color: var(--blanco);
     color: var(--negro);
     border-radius: 16px;
@@ -89,25 +81,20 @@ main{
     margin-bottom: 16px;
 
 }
-.input-grp label{
-    display: none;
-}
-.buttonform{
+
+.buttonform.formularios{
     width: 100%;
-    padding: 20px;
+    padding: 16px;
     border-radius: 32px;
     background-color: var(--primario);
     background-image: linear-gradient(var(--primario_claro),var(--primario_oscuro));
     font-size: var(--letra_boton);
     font-weight: bold;
     color: var(--blanco);
-    border: 1px solid var(--primario);
+   border: none;
 }
-.buttonform:hover{
-    color: var(--negro);
-    
-}
-form {
+
+.caja form {
     text-align: center;
    
     border-radius: 16px;
@@ -115,17 +102,14 @@ form {
     background-image: radial-gradient(var(--blanco),var(--gris_claro));
     
 }
-form h3{
+.caja form h3{
     text-transform: uppercase;
     margin-bottom: 16px;
 }
-form p{
+.caja form p{
     margin-bottom: 16px;
 }
-.checkbox {
-    text-align: left;
-    margin-top: 16px;
-}
+
 .checkbox a:hover{
     color: var(--primario_claro);
 }

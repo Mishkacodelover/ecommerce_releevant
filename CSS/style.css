@@ -40,13 +40,14 @@ small{font-size: 12.64px;}
 }
 header{
     background-color: var(--blanco);
-    padding-top: 5px;
+    padding-top: 8px;
 }
 
 a{
     text-decoration: none;
     color: var(--negro);
 }
+
 /*logo de cabecera*/
 .logo img{
     width: 70px;
@@ -182,6 +183,7 @@ justify-content: center;
 .card-footer{
 text-align: center;
 }
+
 /*tarjetas*/
 
 .tarjetas{
@@ -259,7 +261,7 @@ footer{
     font-weight: bold;
 }
 
-/*formulario del footer*/
+/*formularios */
 
 
 form{
@@ -308,6 +310,13 @@ form h5{
 }
 .error{
     display: none;
+}
+.input-grp .error{
+    padding: 10px;
+    border: 2px solid var(--color_error);
+    color: var(--color_error);
+    border-radius: 16px;
+    margin-top: 16px;
 }
 .checkbox {
     text-align: left;
