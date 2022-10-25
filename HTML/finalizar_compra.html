@@ -7,31 +7,54 @@
     <title>Finalizar compra</title>
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/finalizar_compra.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 <body>
 <div class="wrap">
-    <header>
-        <img src="../IMAGENES/perfume.jpg" alt="logo perfume" width="50px" />
-        <p class="logo">Perfumes Amanatti</p>
-  
-        <button class="carrito"   type="button"><img
-          src="../IMAGENES/iconos/carrito compra.png"
-          alt="carrito compra"
-          width="50px"
-        />Carrito <spam class="contador">5</spam></button>
-        <img src="../IMAGENES/iconos/flecha.png" alt="flecha" width="30px">
-        <button type="button"><img src="../IMAGENES/iconos/tarjeta.jpg" alt="forma de pago" width="30px">
-             Forma de pago</button>
-             <img src="../IMAGENES/iconos/flecha.png" alt="flecha" width="30px">
-             <button type="button"> <img src="../IMAGENES/iconos/finalizar pedido.png" alt="finalizar pedido" width="30px">  Finalizar pedido</button>
-      </header>
+  <header>
+    <div class="cabecera dos">
+      <div class="logo">
+        <img src="../IMAGENES/LOGO 1.jpeg" alt="logo perfume" />
+        <a href="index.html"><h4>Perfumes Amanatti</h4></a>
+      
+      <div class="forma_pago">
+        <div>
+      <button class="button carrito" type="button">
+        Carrito<spam class="circulo"></spam>
+        <spam class="contador">5</spam></button>
+      </div>
+      <div>
+        <i class="bi bi-arrow-right-circle"></i>
+    </div>
+    <div>
+      <a href="#" class="button pago"><i class="bi bi-credit-card-2-back"></i> Forma de pago</a>
+     
+    </div>
+          <div>
+            <i class="bi bi-arrow-right-circle"></i>
+          </div>
+          <div>
+            <a href="#" class="button pago"><i class="bi bi-wallet2"></i>  Finalizar pedido</a>
+       
+          </div>
+          </div>
+        </div>
+    </header>
       
       <main>
-     
-        <h1>Finalizar compra</h1>
-        <img src="../IMAGENES/iconos/tarjeta.jpg" alt="tarjeta" width="30px">
-        <p>Mastercard ....6545 seleccionada</p>
-        <div>
+        <section class="comprar">
+          <div>
+            <h1>Finalizar compra</h1>
+        </div>
+         <div class="seguir_comprando">
+         <a href="#" class="button"> <i class="bi bi-wallet2"></i>Mastercard ....6545 seleccionada</a>
+          <button class="button"><i class="bi bi-arrow-clockwise"></i></button>
+        </div>
+        </section>
+        <section class="finalizar_compra">
+          <div class="formulario">
+          <div>
+        
           
             <form>
                 <h3>Dirección de envío</h3>
@@ -52,73 +75,64 @@
                 <input type="button" name="dirección" value="Añadir dirección de envío">
 
             </form>
-            <div>
-                <img src="../IMAGENES/iconos/camion.png" alt="camión" width="40px">
+          </div>
+          <div><!--iconos-->
+           <div>
+              <img src="../IMAGENES/iconos/camion.png" alt="camión" width="40px">
               <p><b>Envío gratis en este pedido</b></p>
               <p>Por comprar más de 100 €</p>
-            </div>
+          </div>  
             <div>
                 <img src="../IMAGENES/iconos/descuento.png" alt="descuento" width="40px">
                 <p><b>4,5€ de descuento en tu siguiente compra</b></p>
                 <p>Acumula el 1% de tus compras en descuentos</p>
             </div>
+          </div><!--cierra iconos-->
+        </div> <!--cierre div formulario-->
          
           <div class="pedido">
              <h3>Resumen de pedido</h3>
-             <div class="finalcard">
-             <article>
-              
-                <img
-                  src="../IMAGENES/perfume agar.jpg"
-                  alt="perfume agar"
-                  width="140px"
-                />
-                <p>Perfume Agar</p>
-                <p>52,49 €</p>
+              <div class="ped">
+              <div class="card">
+                <figure>
+                  <img
+                    src="../IMAGENES/perfumes/red diamond r.jpg"
+                    alt="perfume red diamond"/>
+                </figure>
+                <div class="card-content">
+                  <div class="card-title-grp">
+                    <a href="detalle_producto.html"><h5>Red Diamond</h5></a>
+  
+                    <div class="price-grp">
+                      49,10 €
+                    </div>
+                  </div>
+  
+                  <div class="description">
+                    <p>Perfume 50 ml</p>
+                  </div>
+                  </div><!--cierre div card-content-->
+              </div> <!--cierre card-->   
+            
+            <div class="cantidad">
                 <input type="number" name="number" min="1" placeholder="1" />
+            </div>
+          </div><!--cierre div ped-->
+          <div class="ped"></div>
+          <div class="ped"></div>
              
-              </article>
-              </div>
-              <div class="finalcard">
-              <article>
-                
-                <img
-                  src="../IMAGENES/perfume amaderado.jpg"
-                  alt="perfume amaderado"
-                  width="140px"
-                />
-                <p>Perfume Amaderado</p>
-                <p>55,00 €</p>
-                <input type="number" name="number" min="1" placeholder="1" />
-                
-              </article>
-              </div>
-               <div class="finalcard">
               
-              <article>
-                <img
-                  src="../IMAGENES/perfume flor loto.jpg"
-                  alt="perfume flor de loto"
-                  width="140px"
-                />
-                <p>Perfume Flor de Loto</p>
-                <p>57,00 €</p>
-                <input type="number" name="number" min="1" placeholder="1" />
-                
-              </article>
-               </div>
-               <div>
+            <div><!--boton para pagar el total-->
               <p><b>Total</b></p>  
               <p>450,99 €</p>
               <button type="button">Pagar con tarjeta online</button>
-              </div>
-        </div>
+            </div><!--cierre boton-->
+        </div><!--cierre div pedido-->
+        </div><!--cierre div sección general finalizar compras-->
+      </section>
          
-           </main>
+          
       </main>
-    
-    
-
     <footer>
       <div class="footer">
         <div class="izq">
@@ -205,9 +219,9 @@
                 alt="instagram"
                 width="40px"
             /></a>
-          </div>
-        </div>
-      </div>
+          </div><!--cierre redes sociales-->
+        </div><!--cierre div class drch-->
+      </div><!--cierre div class footer-->
     </footer>
   </div>
 </body>

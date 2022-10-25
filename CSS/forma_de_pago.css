@@ -40,6 +40,14 @@ i.bi.bi-arrow-right-circle {
 .bi.bi-credit-card-2-back{
     padding-right: 8px;
 }
+.button.pago{
+    background-color: var(--primario_claro);
+   box-shadow: 2px 2px 16px 8px var(--primario_oscuro)inset;
+  
+}
+
+/*fin estilo header*/
+
 .comprar{
     display: flex;
     flex-direction: row;
@@ -52,11 +60,7 @@ i.bi.bi-arrow-right-circle {
     padding-top: 8px;
     color: var(--blanco);
 }
-.button.pago{
-    background-color: var(--primario_claro);
-   box-shadow: 2px 2px 16px 8px var(--primario_oscuro)inset;
-  
-}
+
 a.button.comprar {
     padding: 16px;
 }
@@ -72,7 +76,7 @@ a.button.comprar {
     box-shadow: 2px 2px 16px 8px var(--gris_claro)inset;
 }
 
-/*fin header 2*/
+/*fin seccion comprar */
 
 main{
     background-color: var(--blanco);

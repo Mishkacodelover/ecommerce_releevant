@@ -1,12 +1,144 @@
-.pedido{
-   border: 3px solid blue;
-   height: 350px;
-   padding: 20px;
+.cabecera.dos{
+    display: flex;
+    width: 100%;
+    height: 72px;
+   padding-bottom: 8px;
+    margin-top: 4px;
    
 }
-.finalcard{
-    width: 200px;
-    border: 1px solid black;
-    float: left;
-    height: 250px;
+
+.logo{
+    display: flex;
+    flex: auto;
+    padding-left: 40px;
 }
+.logo h4{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.forma_pago{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    gap: 16px;
+   padding-left: 256px;
+   padding-bottom: 8px;
+   margin-top: 8px;
+   
+}
+.forma_pago div{
+    display: flex;
+
+}
+i.bi.bi-arrow-right-circle {
+    margin: auto;
+}
+.bi.bi-wallet2{
+    padding-right: 8px;
+
+}
+.bi.bi-credit-card-2-back{
+    padding-right: 8px;
+}
+.button.pago{
+    background-color: var(--primario_claro);
+   box-shadow: 2px 2px 16px 8px var(--primario_oscuro)inset;
+  
+}
+
+/*fin header*/
+/*sección comprar*/
+
+.comprar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px;
+    background-image: linear-gradient(var(--primario), var(--negro));
+}
+.comprar h1{
+    padding-left: 24px;
+    padding-top: 8px;
+    color: var(--blanco);
+}
+
+a.button.comprar {
+    padding: 16px;
+}
+.seguir_comprando{
+    padding-right: 32px;
+}
+.seguir_comprando .button{
+    background-color: var(--blanco);
+    color: var(--gris_oscuro);
+    font-size: var(--letra_boton);
+    font-weight: bold;
+    border: 1px solid var(--gris_claro);
+    box-shadow: 2px 2px 16px 8px var(--gris_claro)inset;
+}
+
+/*fin sección comprar*/
+/*estructura del main*/
+
+main{
+    background-color: var(--blanco);
+}
+.finalizar_compra{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid var(--gris_claro);
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid var(--gris_claro);
+}
+.pedido{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid var(--gris_claro);
+}
+.ped{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--gris_claro);
+}
+
+/*cards*/
+.ped figure{
+    overflow: hidden;
+    margin: 0;
+    height:48px;
+    width: 48px;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.ped .card{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 100%;
+    height: 96px;
+    margin: 4px;
+    border: 1px solid var(--gris_claro);
+    border-radius: 16px;
+    box-shadow: 1px 1px 8px 8px inset var(--gris_claro);
+}
+.ped .description{
+    display: flex;
+}
+.ped .card-content{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 80px;
+}
+.ped .card-title-grp{
+    display: flex;
+    flex-direction: row;
+}
+
