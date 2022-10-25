@@ -53,7 +53,8 @@ i.bi.bi-arrow-right-circle {
     color: var(--blanco);
 }
 .button.pago{
-    background-color: var(--negro);
+    background-color: var(--primario_claro);
+   box-shadow: 2px 2px 16px 8px var(--primario_oscuro)inset;
   
 }
 a.button.comprar {
@@ -62,6 +63,14 @@ a.button.comprar {
 .seguir_comprando{
     padding-right: 32px;
 }
+.seguir_comprando .button{
+    background-color: var(--blanco);
+    color: var(--gris_oscuro);
+    font-size: var(--letra_boton);
+    font-weight: bold;
+    border: 1px solid var(--gris_oscuro);
+    box-shadow: 2px 2px 16px 8px var(--gris_claro)inset;
+}
 
 /*fin header 2+*/
 
@@ -69,7 +78,8 @@ main{
     background-color: var(--blanco);
 }
 h3{
-    padding-left: 48px;
+    text-align: center;
+    padding-top: 48px;
 }
 /*formularios de pago*/
 
