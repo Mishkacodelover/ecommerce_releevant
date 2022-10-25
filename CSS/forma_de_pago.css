@@ -68,11 +68,11 @@ a.button.comprar {
     color: var(--gris_oscuro);
     font-size: var(--letra_boton);
     font-weight: bold;
-    border: 1px solid var(--gris_oscuro);
+    border: 1px solid var(--gris_claro);
     box-shadow: 2px 2px 16px 8px var(--gris_claro)inset;
 }
 
-/*fin header 2+*/
+/*fin header 2*/
 
 main{
     background-color: var(--blanco);
