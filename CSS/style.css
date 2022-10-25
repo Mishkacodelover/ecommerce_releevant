@@ -99,7 +99,7 @@ a{
     font-weight: bold;
 }
 .button#carrito-fav{
-    padding: 16px 16px;
+    padding: 8px 16px;
     border-radius: 32px;
     border: none;
     font-size: var(--letra_boton);
@@ -175,13 +175,16 @@ justify-content: center;
 .rating p{
     max-width: 100%;
     box-sizing: border-box;
-    padding: 8px;
+   
 }
 .filled{
     color: var(--gris_claro);
 }
 .card-footer{
 text-align: center;
+}
+.bi.bi-cart{
+  padding: 4px;
 }
 
 /*tarjetas*/
