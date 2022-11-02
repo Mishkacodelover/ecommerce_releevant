@@ -86,7 +86,8 @@ main{
 .finalizar_compra{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    max-width: 100%;
+    padding: 56px;
     border: 1px solid var(--gris_claro);
 }
 .formulario{
@@ -98,16 +99,24 @@ main{
 .pedido{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    max-width: 100%;
+    padding: 24px;
     border: 1px solid var(--gris_claro);
+    border-radius: 16px;
+    box-shadow: 1px 1px 8px 4px var(--gris_claro);
 }
 .ped{
     display: flex;
     flex-direction: row;
+    max-width:100%,
     border: 1px solid var(--gris_claro);
 }
 
 /*cards*/
+.pedido h3{
+    text-align: center;
+    margin-bottom: 24px;
+}
 .ped figure{
     overflow: hidden;
     margin: 0;
@@ -121,24 +130,56 @@ main{
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
-    width: 100%;
+    max-width: 100%;
     height: 96px;
     margin: 4px;
     border: 1px solid var(--gris_claro);
     border-radius: 16px;
-    box-shadow: 1px 1px 8px 8px inset var(--gris_claro);
+    box-shadow: 1px 1px 8px 1px inset var(--gris_claro);
 }
-.ped .description{
-    display: flex;
-}
+
 .ped .card-content{
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    height: 80px;
+   max-height: 100%;
+   padding-left: 16px;
 }
 .ped .card-title-grp{
     display: flex;
     flex-direction: row;
+}
+.ped .price-grp{
+    margin-top: 0px;
+    text-align: center;
+}
+/*contador productos*/
+.cantidad{
+   padding: 16px;
+}
+.cantidad input {
+    margin-top: 20px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--gris_claro);
+}
+
+/*boton de pago pedido*/
+.pagar div{
+    padding: 8px;
+}
+
+.pagar p{
+display: inline;
+}
+.pagar .buttonform{
+   border: 1px solid var(--primario);
+}
+.pagar .total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
 }
 
